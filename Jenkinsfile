@@ -5,7 +5,7 @@ pipeline{
       stage('Git Checkout'){
             steps{
                 echo 'This is a Git Checkout Stage'
-                git branch: 'main', credentialsId: 'Git-Credentials', url: 'https://github.com/FDSa-4321/Jenkins-Zero-To-Hero.git'
+                #git branch: 'main', credentialsId: 'Git-Credentials', url: 'https://github.com/FDSa-4321/Jenkins-Zero-To-Hero.git'
             }
         }
         
